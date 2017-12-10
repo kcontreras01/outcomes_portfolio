@@ -13,7 +13,8 @@ ul {
   padding: 0;
   overflow: hidden;
   display: flex;
-}
+/*  background: #DAD4D7;
+*/}
 
 li {
 /*  float: left;
@@ -34,8 +35,7 @@ li a {
 }
 
 li a:hover {
-  background-color: white;
-  color: #CDCDCD;
+  color: white;
 }
 
 section {
@@ -51,6 +51,32 @@ p {
   width: 50%;
   padding: 1em;
   font-size: 1.5em;
+}
+
+figure { 
+  display: inline-block; 
+  position: relative; 
+  overflow: hidden; 
+  width: 31vw;
+}
+
+figcaption { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
+
+  opacity: 0;
+  bottom: 0; 
+  left: -30%;
+/*  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;*/
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  left: 0;
 }
 
 /*footer {
@@ -140,8 +166,6 @@ p {
   width: 24em;
   height: 18em;
   border-radius: 8px;
-/*  display: flex;
-  flex-direction: row;*/
 }
 
 .contact {
@@ -210,24 +234,13 @@ p {
   overflow-y: scroll;
 }
 
-.projectText {
-  visibility: hidden;
-}
-
-.projectText:hover {
-  visibility: visible;
-  opacity: 1;
-  color: black;
-  z-index: -1;
-}
-
-img {
+/*img {
   opacity: 1;
 }
 
 img:hover {
   opacity: .75;
-}
+}*/
 
 @-webkit-keyframes fadeIn {
   from {opacity: 0} 

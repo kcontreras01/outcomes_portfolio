@@ -43,15 +43,55 @@ class Portfolio extends Component {
 	projects(props) {
 		return (
 			<section>
+			<figure>
 			 		<a href="https://kcontreras01.github.io/brooklyn/" target="_blank"><img src={brooklyn} className="projects grow" /></a>
+			 		<figcaption>
+			 			Responsive online store demo site 
+			 		</figcaption>
+			</figure>
+			<figure>			
 			 		<a href="https://kcontreras01.github.io/responsive-news/" target="_blank"><img src={news} className="projects grow" /></a>
+			 		<figcaption>
+			 			Responsive News demo site
+			 		</figcaption>
+			</figure>			 		
+			<figure>			
 			 		<a href="https://kcontreras01.github.io/BusyHands/" target="_blank"><img src={busy} className="projects grow" /></a>
+			 		<figcaption>
+			 			Demo Frontend design site
+			 		</figcaption>
+			</figure>	
+			<figure>						
 					<a href="http://startup-matchmaker-kc.bitballoon.com/" target="_blank"><img src={match} className="projects grow" /></a>
+			 		<figcaption>
+						Demo Frontend design site
+			 		</figcaption>
+			</figure>	
+			<figure>			
 					<a href="http://electron-libre.surge.sh/" target="_blank"><img src={electron} className="projects grow" /></a>
+			 		<figcaption>
+			 			Create and save notes on your desktop. Full CRUD Express/React app hosted with Electron Framework
+			 		</figcaption>
+			</figure>	
+			<figure>						
 					<a href="http://githiredpotoo.surge.sh/" target="_blank"><img src={githired} className="projects grow" /></a>
-			 		<a href="#" target="_blank"><img src={article} className="projects grow" /></a>
-			 		<a href="https://savethatarticle.herokuapp.com/" target="_blank"><img src={weatherapp} className="projects grow" /></a>
+			 		<figcaption>
+						Job search management tool that lets users create a profile, search jobs, and save applications. GitHired App made with Express/React and GitHub Jobs API			 		</figcaption>
+			</figure>	
+			<figure>						
+			 		<a href="https://savethatarticle.herokuapp.com/" target="_blank"><img src={article} className="projects grow" /></a>
+			 		<figcaption>
+						Save interesting articles from the NYTimes in a user profile. Built with Express, User Authentication, and NYTimes Article API			 		</figcaption>
+			</figure>	
+			<figure>						
+			 		<a href="#" target="_blank"><img src={weatherapp} className="projects grow" /></a>
+			 		<figcaption>
+						Search locations, save weather widgets, and look at the week ahead. Worked alongside UX Developers to create a Weather App that is
+						fully CRUD Express/React app			 		
+					</figcaption>
+			</figure>	
 			</section>
+
 			// <section className="project-container">
 			// 	<div className="container">
 			// 		<img src={brooklyn} className="projects" />
@@ -227,16 +267,16 @@ class Portfolio extends Component {
 			<div>
 				<nav>
 					<ul>
-						<li>
+						<li className='grow'>
 							<Link to="/aboutme">About Me</Link>
 						</li>
-						<li>
+						<li className='grow'>
 							<Link to="/projects">Projects</Link>
 						</li>
-						<li>
+						<li className='grow'>
 							<Link to="/skills">Skills</Link>
 						</li>
-						<li>
+						<li className='grow'>
 							<Link to="/contact">Contact</Link>
 						</li>
 					</ul>
