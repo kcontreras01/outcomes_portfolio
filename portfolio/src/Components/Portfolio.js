@@ -6,6 +6,10 @@ import weatherapp from "../images/weatherapp.png";
 import electron from "../images/electron.png";
 import article from "../images/article.png";
 import kiara from "../images/kiara.jpeg";
+import match from "../images/match.png";
+import busy from "../images/busy.png";
+import news from "../images/news.png";
+import brooklyn from "../images/brooklyn.png";
 import FontAwesome from "react-fontawesome";
 
 class Portfolio extends Component {
@@ -38,48 +42,89 @@ class Portfolio extends Component {
 
 	projects(props) {
 		return (
-			<section className="project-container">
-				<div className="container">
-					<img src={electron} className="projects" />
-					<div className="hold-text">
-							<p>Create and save notes on your desktop. Full CRUD Express/React app hosted with Electron Framework</p>
-							<p><a className="demo grow" target="_blank" href="http://electron-libre.surge.sh/">Noted.</a></p>
-							<p><a className="demo grow" target="_blank" href="https://github.com/electron-WDI">Github</a></p>
-						</div>
-				</div>
+			<section>
+			 		<a href="https://kcontreras01.github.io/brooklyn/" target="_blank"><img src={brooklyn} className="projects grow" /></a>
+			 		<a href="https://kcontreras01.github.io/responsive-news/" target="_blank"><img src={news} className="projects grow" /></a>
+			 		<a href="https://kcontreras01.github.io/BusyHands/" target="_blank"><img src={busy} className="projects grow" /></a>
+					<a href="http://startup-matchmaker-kc.bitballoon.com/" target="_blank"><img src={match} className="projects grow" /></a>
+					<a href="http://electron-libre.surge.sh/" target="_blank"><img src={electron} className="projects grow" /></a>
+					<a href="http://githiredpotoo.surge.sh/" target="_blank"><img src={githired} className="projects grow" /></a>
+			 		<a href="#" target="_blank"><img src={article} className="projects grow" /></a>
+			 		<a href="https://savethatarticle.herokuapp.com/" target="_blank"><img src={weatherapp} className="projects grow" /></a>
+			</section>
+			// <section className="project-container">
+			// 	<div className="container">
+			// 		<img src={brooklyn} className="projects" />
+			// 			<div className="hold-text">
+			// 				<p>Responsive online store site</p>
+			// 				<p><a className="demo grow" target="_blank" href="https://kcontreras01.github.io/brooklyn/">Brook + Lyn</a></p>
+			// 				<p><a className="demo grow" target="_blank" href="https://github.com/kcontreras01/brooklyn">Github</a></p>
+			// 			</div>
+			// 	</div>			
+			// 	<div className="container">
+			// 		<img src={news} className="projects" />
+			// 			<div className="hold-text">
+			// 				<p>Responsive News example site</p>
+			// 				<p><a className="demo grow" target="_blank" href="https://kcontreras01.github.io/responsive-news/">ECon News</a></p>
+			// 				<p><a className="demo grow" target="_blank" href="https://github.com/kcontreras01/responsive-news">Github</a></p>
+			// 			</div>
+			// 	</div>				
+			// 	<div className="container">
+			// 		<img src={busy} className="projects" />
+			// 			<div className="hold-text">
+			// 				<p>Demo Frontend design example</p>
+			// 				<p><a className="demo grow" target="_blank" href="https://kcontreras01.github.io/BusyHands/">Busy Hands</a></p>
+			// 				<p><a className="demo grow" target="_blank" href="https://github.com/kcontreras01/BusyHands">Github</a></p>
+			// 			</div>
+			// 	</div>				
+			// 	<div className="container">
+			// 		<img src={match} className="projects" />
+			// 			<div className="hold-text">
+			// 				<p>Frontend design example built for business in mind</p>
+			// 				<p><a className="demo grow" target="_blank" href="http://startup-matchmaker-kc.bitballoon.com/">Startup Matchmaker</a></p>
+			// 				<p><a className="demo grow" target="_blank" href="https://github.com/kcontreras01/StartupMatchmaker">Github</a></p>
+			// 			</div>
+			// 	</div>			
+			// 	<div className="container">
+			// 		<img src={electron} className="projects" />
+			// 		<div className="hold-text">
+			// 				<p>Create and save notes on your desktop. Full CRUD Express/React app hosted with Electron Framework</p>
+			// 				<p><a className="demo grow" target="_blank" href="http://electron-libre.surge.sh/">Noted.</a></p>
+			// 				<p><a className="demo grow" target="_blank" href="https://github.com/electron-WDI">Github</a></p>
+			// 			</div>
+			// 	</div>
 
-				<div className="container">
-					<img src={githired} className="projects image" />
-					<div className="hold-text">
-							<p>Job search management tool that lets users create a profile, search jobs, and save applications. GitHired App made with Express/React and GitHub Jobs API</p>
-							<p><a className="demo grow" target="_blank" href="http://githiredpotoo.surge.sh/">GitHired</a></p>
-							<p><a className="demo grow" target="_blank" href="https://github.com/rohara-gleveline">Github</a></p>
-					</div>
-				</div>
-				<div className="container">
-					<img src={article} className="projects image" />
-					<div className="hold-text">
-							<p>Save interesting articles from the NYTimes in a user profile. Built with Express, User Authentication, and NYTimes Article API</p>
-							<p><a className="demo grow" target="_blank" href="https://savethatarticle.herokuapp.com/">Save That Article</a></p>
-					</div>
-				</div>
-				<div className="container">
-					<img src={weatherapp} className="projects" />
-					<div className="hold-text">
-							<p>Search locations, save weather widgets, and look at the week ahead. Worked alongside UX Developers to create a Weather App that is
-							fully CRUD Express/React app</p>
-							{/*<p><a className="demo grow" href="#">WeatherApp</a></p>*/}
-					</div>
-				</div>
-			{/*	<div className="container">
+			// 	<div className="container">
+			// 		<img src={githired} className="projects image" />
+			// 		<div className="hold-text">
+			// 				<p>Job search management tool that lets users create a profile, search jobs, and save applications. GitHired App made with Express/React and GitHub Jobs API</p>
+			// 				<p><a className="demo grow" target="_blank" href="http://githiredpotoo.surge.sh/">GitHired</a></p>
+			// 				<p><a className="demo grow" target="_blank" href="https://github.com/rohara-gleveline">Github</a></p>
+			// 		</div>
+			// 	</div>
+			// 	<div className="container">
+			// 		<img src={article} className="projects image" />
+			// 		<div className="hold-text">
+			// 				<p>Save interesting articles from the NYTimes in a user profile. Built with Express, User Authentication, and NYTimes Article API</p>
+			// 				<p><a className="demo grow" target="_blank" href="https://savethatarticle.herokuapp.com/">Save That Article</a></p>
+			// 		</div>
+			// 	</div>
+			// 	<div className="container">
+			// 		<img src={weatherapp} className="projects" />
+			// 		<div className="hold-text">
+			// 				<p>Search locations, save weather widgets, and look at the week ahead. Worked alongside UX Developers to create a Weather App that is
+			// 				fully CRUD Express/React app</p>
+			// 		</div>
+			// 	</div>
+			/*	<div className="container">
 								<img src={qwerty} className="projects" />
 								<div className="hold-text">
 										<p>Text-based adventure game about Qwerty the Cat completed with
 										multiple endings. Built with HTML, CSS, Javascript, and jQuery.</p>
 										<p><a className="demo grow" href="qwerty-kpc.bitballoon.com">Qwerty</a></p>
 								</div>
-							</div>*/}
-			</section>
+							</div>*/
+			// </section>
 		);
 	}
 

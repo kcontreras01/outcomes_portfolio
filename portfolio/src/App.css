@@ -12,11 +12,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: flex;
 }
 
 li {
-  float: left;
-
+/*  float: left;
+*/
 }
 
 span {
@@ -49,14 +50,49 @@ h2, h3 {
 p {
   width: 50%;
   padding: 1em;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
-.image {
+/*footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+}*/
+
+/*.image {
   display: block;
   width: 100%;
   height: auto;
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}*/
+
+/*.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+*/
 
 .container {
   display: flex;
@@ -104,6 +140,8 @@ p {
   width: 24em;
   height: 18em;
   border-radius: 8px;
+/*  display: flex;
+  flex-direction: row;*/
 }
 
 .contact {
@@ -161,9 +199,10 @@ p {
 
 
 .projects {
-  width: 30em;
+  width: 25em;
   height: 20em;
-  border-radius: 8px;
+  border-radius: 25px;
+  padding: 1em;
 }
 
 .project-container {
@@ -171,6 +210,24 @@ p {
   overflow-y: scroll;
 }
 
+.projectText {
+  visibility: hidden;
+}
+
+.projectText:hover {
+  visibility: visible;
+  opacity: 1;
+  color: black;
+  z-index: -1;
+}
+
+img {
+  opacity: 1;
+}
+
+img:hover {
+  opacity: .75;
+}
 
 @-webkit-keyframes fadeIn {
   from {opacity: 0} 
