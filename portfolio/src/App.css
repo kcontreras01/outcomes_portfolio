@@ -8,6 +8,13 @@ body {
 /*  background: #BCB1B7;
 */}
 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -44,10 +51,6 @@ section {
   animation: fadeIn .75s ease-in;
 }
 
-/*h2, h3 {
-  color: #E9E9E9;
-}*/
-
 p {
   width: 50%;
   padding: 1em;
@@ -58,40 +61,62 @@ footer {
   background: black;
   color: white;
 }
-figure { 
-/*  display: inline-block; 
-  position: relative; 
-  overflow: hidden; */
-  width: 31vw;
+
+span {
+  color: #AC6C7E;
 }
 
-figcaption { 
-  position: absolute; 
-  background: rgba(0,0,0,0.75); 
-  color: white; 
-  padding: 10px 20px; 
-
-  opacity: 0;
-  bottom: 0; 
-  left: -30%;
-/*  -webkit-transition: all 0.6s ease;
-  -moz-transition:    all 0.6s ease;
-  -o-transition:      all 0.6s ease;*/
+/*DOWN ARROW*/
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
 }
 
-figure:hover figcaption {
-  opacity: 1;
-  left: 0;
+.arrows path {
+  stroke: #AC6C7E;
+  fill: transparent;
+  stroke-width: 1px;  
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite; 
 }
 
-/*.devicon-git-plain {
-  max-width: 2em;
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
 }
 
-.devicon-html5-plain {
-  max-width: 2em;
+/* Safari / Chrome */
+@-webkit-keyframes arrow 
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
 }
-*/
+
+.arrows path.a1 {
+  animation-delay:-1s;
+  -webkit-animation-delay:-1s; /* Safari / Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay:-0.5s;
+  -webkit-animation-delay:-0.5s; /* Safari / Chrome */
+}
+
+.arrows path.a3 { 
+  animation-delay:0s;
+  -webkit-animation-delay:0s; /* Safari / Chrome */
+}
+
+/*END DOWN ARROW*/
 
 .container {
   display: flex;
@@ -114,9 +139,14 @@ figure:hover figcaption {
 
 .Landing {
   color: #545060;
-  margin-top: 5em;
+  margin-top: 10em;
 }
 
+
+.intro {
+  animation: fadeIn 2s ease-in;
+
+}
 .page {
   height: 100vh;
 
@@ -128,12 +158,11 @@ figure:hover figcaption {
   font-size: 6em;
   text-align: center;
   color: #545060;
-
 }
 
 #me {
   width: 24em;
-  height: 18em;
+  height: 23em;
   border-radius: 8px;
 }
 
@@ -164,6 +193,14 @@ figure:hover figcaption {
   color: #DEDDE0;
 }
 
+h4 {
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+  color: #AC6C7E;
+
+}
+
 .skills-box {
   display: flex;
 }
@@ -192,9 +229,11 @@ figure:hover figcaption {
 
 
 .Projects {
-/*    background: url('./images/projects2.jpg');
-*/
+    background: url('./images/projects.jpg');
+/*    opacity: .5;
+*/    padding: 3em;
 }
+
 .projects {
   width: 25em;
   height: 20em;
@@ -202,24 +241,14 @@ figure:hover figcaption {
   padding: 1em;
 }
 
-.projButton {
-  text-decoration: none;
-}
-
-/*.projDesc {
-  width: 15em;
-}*/
-
-/*.projDesc p{
-  width: 15em;
-}
-*/
-
-
 .proj {
   display: flex;
 }
 
+
+.projDesc {
+  width: 25em;
+}
 @-webkit-keyframes fadeIn {
   from {opacity: 0} 
   to {opacity: 1}
@@ -237,6 +266,7 @@ figure:hover figcaption {
   height: 60vh;
   }*/
 }
+
 
 
 /*TABLET*/
@@ -319,8 +349,8 @@ figure {
   /*Skills*/
 .skills-box {
   display: flex;
-  flex-wrap: wrap;
-}
+/*  flex-wrap: wrap;
+*/}
 
 .skills {
   margin-top: 2em;

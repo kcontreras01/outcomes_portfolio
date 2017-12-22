@@ -13,6 +13,7 @@ class Projects extends Component {
 		return(
 			<div>
 			<section className="Projects">
+					<h4>Projects</h4>			
 				<section className="project-container">
 				<div className="proj">
 					<div className="projDesc">
