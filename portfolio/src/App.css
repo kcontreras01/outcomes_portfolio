@@ -3,7 +3,8 @@
 }
 
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
   background: #F4F4F5;
 /*  background: #BCB1B7;
 */}
@@ -66,6 +67,15 @@ span {
   color: #AC6C7E;
 }
 
+
+h4 {
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+  color: #AC6C7E;
+}
+
+
 /*DOWN ARROW*/
 .arrows {
   width: 60px;
@@ -118,6 +128,12 @@ span {
 
 /*END DOWN ARROW*/
 
+
+.page {
+  height: 100vh;
+
+}
+
 .container {
   display: flex;
   justify-content: flex-start;
@@ -137,21 +153,16 @@ span {
   margin-top: .2em;
 }
 
+/*LANDING PAGE*/
+
 .Landing {
   color: #545060;
-  margin-top: 10em;
+  margin-top: 15em;
 }
-
 
 .intro {
   animation: fadeIn 2s ease-in;
-
 }
-.page {
-  height: 100vh;
-
-}
-
 
 .logo {
   margin: 0 auto;
@@ -160,11 +171,15 @@ span {
   color: #545060;
 }
 
+/*BRAND STATEMENT*/
+
 #me {
-  width: 24em;
+  width: 30em;
   height: 23em;
   border-radius: 8px;
 }
+
+/*CONTACT*/
 
 .contact {
   margin-top: 3em;
@@ -193,13 +208,7 @@ span {
   color: #DEDDE0;
 }
 
-h4 {
-  text-align: center;
-  font-size: 2em;
-  padding: 1em;
-  color: #AC6C7E;
-
-}
+/*SKILLS*/
 
 .skills-box {
   display: flex;
@@ -228,6 +237,7 @@ h4 {
 .grow:hover { transform: scale(1.1); }
 
 
+/*PROJECTS*/
 .Projects {
     background: url('./images/projects.jpg');
 /*    opacity: .5;
@@ -249,6 +259,40 @@ h4 {
 .projDesc {
   width: 25em;
 }
+
+.btn {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+/*  color: #fff;
+*/  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+    background: #F5F7FA;
+    box-shadow: 0 .4vw 0 hsl(214, 16%, 86%);
+    color: black;
+}
+
+.blue:hover {
+    background: #E6E9ED;
+}
+
+.mobile {
+  height: 30em;
+  width: 15em;
+  padding: 1em;
+}
+
 @-webkit-keyframes fadeIn {
   from {opacity: 0} 
   to {opacity: 1}
@@ -309,7 +353,6 @@ flex-direction: column;
     font-size: 2em;
   }
   li {
-    color: black;
     font-size: 1em;
     text-align: center;
     padding: 14px 16px;
@@ -342,6 +385,8 @@ figure {
   height: 10em;
   flex-direction: column;
 }
+
+
 
 /*.project-container {
   display: flex;
