@@ -40,6 +40,7 @@
 
 
 import React, { Component } from 'react';
+import './Nav.css';
 
 class Nav extends Component {
   componentWillMount() {
@@ -52,12 +53,16 @@ class Nav extends Component {
 
   render() {
     return (
-        <div className="NavBarContainer">
-          <div className="navItem" onClick={this.smoothScroll}><a href='#brandstatement'>about me</a></div>
-          <div className="navItem" onClick={this.onClickSmooth}><a href="#projects">Projects</a></div>
-          <div className="navItem" onClick={this.onClickSmooth}><a href="#skills">Skills</a></div>
-          <div className="navItem" onClick={this.onClickSmooth}><a href="#contact">Contact</a></div>
-        </div>
+    	<section className="Nav">
+        <nav className="NavBarContainer">
+        <ul>
+          <li className="navItem grow" onClick={this.smoothScroll}><a href='#brandstatement'>About Me</a></li>
+          <li className="navItem grow" onClick={this.onClickSmooth}><a href="#projButtons">Projects</a></li>
+          <li className="navItem grow" onClick={this.onClickSmooth}><a href="#skills">Skills</a></li>
+          <li className="navItem grow" onClick={this.onClickSmooth}><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+      </section>
     );
   }
 }

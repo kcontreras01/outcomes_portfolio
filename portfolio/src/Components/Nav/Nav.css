@@ -2,6 +2,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100vw;
+  height: 5em;
 }
 
 
@@ -11,22 +12,18 @@ ul {
   padding: 0;
   overflow: hidden;
   display: flex;
-/*  background: #DAD4D7;
-*/}
+}
 
 a {
   text-decoration: none;
 }
-li {
-  color: #AC6C7E;
-  cursor: pointer;
-  font-size: 2em;  
-}
 
 li a {
+    font-size: 2em;  
+  cursor: pointer;
+
   display: block;
-  color: #E9E9E9;
-  font-size: 2em;
+  color: #AC6C7E;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -36,7 +33,11 @@ li a:hover {
   color: white;
 }
 
-.NavBar {
+.Nav {
+  height: 5em;
+}
+
+/*.NavBar {
   width: 100%;
   position: absolute;
   top: 90vh;
@@ -70,3 +71,4 @@ li a:hover {
   position: fixed;
   top: 0;
 }
+*/

@@ -47,9 +47,7 @@ class Projects extends Component {
     return (
       <section>
 
-      <div className="projButtons">
-                  <h4>Projects</h4>     
-
+      <div id="projButtons">
       <div className="btn blue"  onClick={this.fs}>Fullstack</div>      
       <div className="btn blue" onClick={this.fe}>Frontend</div>
       <div className="btn blue"  onClick={this.mobile}>Mobile</div>
