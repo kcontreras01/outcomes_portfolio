@@ -1,0 +1,22 @@
+.skills-box {
+  display: flex;
+}
+
+.skills {
+  margin-top: 3em;
+}
+.skills p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1em;
+  border-radius: 8px;
+  background: #FAFAFA;
+  width: 20vw;
+  box-shadow: 3px 3px 5px #888888;
+}
+
+.skills a {
+  text-decoration: none;
+  color: black;
+}

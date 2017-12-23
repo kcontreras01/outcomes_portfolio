@@ -1,0 +1,41 @@
+.contact a {
+  text-decoration: none;
+  color: black;
+  /*color: #E9E9E9;*/
+  padding: 1em;
+}
+
+.contact-links {
+  margin-top: .2em;
+}
+
+.contact {
+  margin-top: 3em;
+  font-size: 50px;
+}
+
+.contact section {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1em;
+}
+
+.contact a:hover {
+  color: #DEDDE0;
+}
+
+.page {
+	height: 100vh;
+}

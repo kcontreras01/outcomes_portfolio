@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Nav from "./Components/Nav.js";
-import Landing from "./Components/Landing.js";
-import BrandStatement from "./Components/BrandStatement.js";
-import Projects from "./Components/Projects.js";
-import Skills from "./Components/Skills.js";
-import Contact from "./Components/Contact.js";
-import Footer from "./Components/Footer.js";
+import Nav from "./Components/Nav/Nav.js";
+import Landing from "./Components/Landing/Landing.js";
+import BrandStatement from "./Components/BrandStatement/BrandStatement.js";
+import Projects from "./Components/Projects/Projects.js";
+import Skills from "./Components/Skills/Skills.js";
+import Contact from "./Components/Contact/Contact.js";
+import Footer from "./Components/Footer/Footer.js";
 
 class App extends Component {
   render() {

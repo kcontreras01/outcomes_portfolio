@@ -1,0 +1,72 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+/*  background: #DAD4D7;
+*/}
+
+a {
+  text-decoration: none;
+}
+li {
+  color: #AC6C7E;
+  cursor: pointer;
+  font-size: 2em;  
+}
+
+li a {
+  display: block;
+  color: #E9E9E9;
+  font-size: 2em;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+}
+
+.NavBar {
+  width: 100%;
+  position: absolute;
+  top: 90vh;
+  background: -webkit-linear-gradient(rgba(255,255,255, 1), rgba(255,255,255,.7));
+  background: -o-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
+  background: -moz-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
+  background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
+  z-index: 3;
+}
+
+.NavBarContainer {
+  max-width: 78%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.navItem {
+  color: #AC6C7E;
+  cursor: pointer;
+  font-size: 2em; 
+}
+
+.navItem:hover{
+  color: white;
+}
+
+.NavBarFixed {
+  position: fixed;
+  top: 0;
+}
