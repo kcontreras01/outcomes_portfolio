@@ -54,12 +54,11 @@
 
 .Landing {
   color: #545060;
-  margin-top: 15em;
-}
+/*  margin-top: 15em;
+*/}
 
-/*.intro {
-  animation: fadeIn 2s ease-in;
-}*/
+.intro {
+margin-top: 10em;}
 
 .logo {
   margin: 0 auto;

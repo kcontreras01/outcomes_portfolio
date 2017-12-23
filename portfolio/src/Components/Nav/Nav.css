@@ -1,51 +1,9 @@
-nav {
+.NavBar {
+  width: 100%;
   position: fixed;
   top: 0;
-  width: 100vw;
-  height: 5em;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: flex;
-}
-
-a {
-  text-decoration: none;
-}
-
-li a {
-    font-size: 2em;  
-  cursor: pointer;
-
-  display: block;
-  color: #AC6C7E;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  color: white;
-}
-
-.Nav {
-  height: 5em;
-}
-
-/*.NavBar {
-  width: 100%;
-  position: absolute;
-  top: 90vh;
-  background: -webkit-linear-gradient(rgba(255,255,255, 1), rgba(255,255,255,.7));
-  background: -o-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
-  background: -moz-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
-  background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
-  z-index: 3;
+  height: 3em;
+  z-index: 2;
 }
 
 .NavBarContainer {
@@ -54,21 +12,16 @@ li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
+  height: 4vh;
 }
 
-.navItem {
-  color: #AC6C7E;
+.navItem a{
   cursor: pointer;
+  color: #AC6C7E;
   font-size: 2em; 
+  text-decoration: none;
 }
 
 .navItem:hover{
   color: white;
 }
-
-.NavBarFixed {
-  position: fixed;
-  top: 0;
-}
-*/

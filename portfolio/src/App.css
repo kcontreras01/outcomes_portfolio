@@ -30,7 +30,7 @@ h4 {
 .page {
   height: 100vh;
   animation: fadeIn 2s ease-in;
-
+  margin-top: 2em;
 }
 
 .container {

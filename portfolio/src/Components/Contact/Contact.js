@@ -4,7 +4,7 @@ import './Contact.css';
 class Contact extends Component {
 	render(){
 		return(
-			<section id="contact">
+			<section id="contact" >
 				<div className="contact">
 					<h2>Get in touch</h2>
 					<div className="contact-links">
@@ -24,6 +24,14 @@ class Contact extends Component {
 						</p>
 					</div>
 				</div>
+
+								<footer>
+					<p>
+						This site was built with <span>&hearts;</span> and React
+					</p>
+					<p>Code for this site is available <a href="https://github.com/kcontreras01/outcomes_portfolio" target="_blank" rel="noopener noreferrer">here</a></p>
+				</footer>
+
 			</section>
 		);
 	}
