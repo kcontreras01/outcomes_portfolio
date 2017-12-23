@@ -14,7 +14,8 @@ class Frontend extends Component {
 					<section className="project-container">
 					<div className="proj">
 						<div className="projDesc">
-							<p>Responsive online store demo site </p>
+							<p>Brooklyn responsive blog demo site </p>
+							<p>Built with: HTML, CSS, and Javascript</p>														
 							<a href="https://kcontreras01.github.io/brooklyn/" className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
 							<a href="#" className="btn blue">Github</a>
 						</div>				
@@ -22,7 +23,8 @@ class Frontend extends Component {
 					</div>
 				<div className="proj">
 						<div className="projDesc">
-							<p>Responsive News demo site</p>
+							<p>Responsive News demo site using Flexbox</p>
+							<p>Built with: HTML, CSS, and Javascript</p>														
 							<a href="https://kcontreras01.github.io/responsive-news/"  className="btn blue"target="_blank" rel="noopener noreferrer">Demo</a>
 							<a href="https://github.com/kcontreras01/responsive-news" className="btn blue">Github</a>
 						</div>				
@@ -30,7 +32,8 @@ class Frontend extends Component {
 					</div>	
 				<div className="proj">
 						<div className="projDesc">
-							<p>Demo Frontend design site</p>
+							<p>BusyHands demo Frontend design site</p>
+							<p>Built with: HTML, CSS, and Javascript</p>							
 							<a href="https://kcontreras01.github.io/BusyHands/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
 							<a href="https://github.com/kcontreras01/BusyHands" className="btn blue" >Github</a>
 						</div>				
@@ -38,7 +41,8 @@ class Frontend extends Component {
 					</div>	
 				<div className="proj">
 						<div className="projDesc">
-							<p>Demo Frontend design site</p>
+							<p>StartupMatchmaker demo business site with Frontend design</p>
+							<p>Built with: HTML, CSS, and Javascript</p>														
 							<a href="http://startup-matchmaker-kc.bitballoon.com/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
 							<a href="https://github.com/kcontreras01/week8" className="btn blue" >Github</a>
 						</div>				

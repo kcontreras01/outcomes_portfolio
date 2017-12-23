@@ -6,19 +6,28 @@
 }
 
 .projects {
-  width: 25em;
-  height: 20em;
+/*  width: 25em;
+*/  height: 21em;
   border-radius: 25px;
   padding: 1em;
 }
 
 .proj {
   display: flex;
+  height: 25em;
+  padding: 3em;
 }
 
 
+/*.projMobile {
+  display: flex;
+  height: 20em;  
+}*/
+
 .projDesc {
   width: 25em;
+    font-size: .8em;
+
 }
 
 .projButtons {
@@ -29,7 +38,7 @@
 .btn {
   border-radius: 5px;
   padding: 15px 25px;
-  font-size: 22px;
+  font-size: 1.3em;
   text-decoration: none;
   margin: 20px;
 /*  color: #fff;
@@ -56,6 +65,4 @@
 
 .mobile {
   height: 30em;
-  width: 15em;
-  padding: 1em;
 }
