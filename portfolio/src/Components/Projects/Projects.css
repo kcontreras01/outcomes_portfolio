@@ -1,11 +1,10 @@
 /*PROJECTS*/
 #projects {
     background: url('../../images/projects.jpg');
-/*    opacity: .5;
-*/    padding: 3em;
+    padding: 3em;
 }
 
-.projects {
+.projectImages {
 /*  width: 25em;
 */  height: 21em;
   border-radius: 25px;
@@ -18,7 +17,6 @@
   padding: 3em;
 }
 
-
 /*.projMobile {
   display: flex;
   height: 20em;  
@@ -30,9 +28,14 @@
 
 }
 
-.projButtons {
+.blue:target {
+  background: red;
+}
+#projButtons {
 	align-items: center;
-	background: white;
+/*	background: lightblue;
+*/  width: 100%;
+
 }
 
 .btn {
@@ -41,8 +44,7 @@
   font-size: 1.3em;
   text-decoration: none;
   margin: 20px;
-/*  color: #fff;
-*/  position: relative;
+  position: relative;
   display: inline-block;
   cursor: pointer;
 }
@@ -65,4 +67,33 @@
 
 .mobile {
   height: 30em;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .proj {
+    flex-direction: column;
+    padding: 0;
+    font-size: .8em;
+    margin-bottom: 2em;
+  }
+
+  .projectImages {
+/*  width: 25em;
+*/  height: 10em;
+
+  }
+  .btn {
+        padding: .5em 1em;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projDesc p {
+    padding: 0;
+  }
 }

@@ -13,6 +13,7 @@
   margin-top: 3em;
   margin-bottom: 0;
   font-size: 50px;
+  height: 65vh;
 }
 
 .contact section {
@@ -49,4 +50,36 @@ footer {
 
 span {
   color: #AC6C7E;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+h2 {
+   font-size: .75em;
+}
+.contact section {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: .60em;
+  padding: 0;
+}
+
+.contact a:hover {
+  color: white;
+}
 }

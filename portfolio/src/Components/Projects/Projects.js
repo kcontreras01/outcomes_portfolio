@@ -45,7 +45,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <section>
+      <section  id="projects">
 
       <div id="projButtons">
       <div className="btn blue"  onClick={this.fs}>Fullstack</div>      

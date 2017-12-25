@@ -25,3 +25,19 @@
 .navItem:hover{
   color: white;
 }
+
+@media only screen and (max-width: 500px) {
+  .NavBar {
+    width: 100vw;
+        font-size: .5em;
+
+  }
+  .NavBarContainer {
+    
+  }
+
+  .navItem a {
+  }
+
+
+}

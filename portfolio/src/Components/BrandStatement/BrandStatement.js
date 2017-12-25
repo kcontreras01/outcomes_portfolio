@@ -6,8 +6,8 @@ class BrandStatement extends Component {
 	render(){
 		return (
 			<div>
-			<section id="brandstatement" className="page">
-				<p>
+			<section id="brandstatement">
+				<p className="brandParagraph">
 					I’m intrigued by improving and crafting digital experiences. With the
 					left side of my brain fueled by music and teaching yoga I have found
 					that Web Development requires my perceptive nature, logical thinking,

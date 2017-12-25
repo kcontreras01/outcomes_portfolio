@@ -8,7 +8,7 @@ import './Projects.css';
 class Fullstack extends Component {
 	render(){
 		return(
-				<section id="projects">
+				<section>
 						<h4>Fullstack</h4>			
 					<section className="project-container">
 					<div className="proj">
@@ -18,16 +18,17 @@ class Fullstack extends Component {
 							<a href="http://articles.surge.sh/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
 							<a href="https://github.com/kcontreras01/ReactArticles" className="btn blue" target="_blank" rel="noopener noreferrer">GitHub</a>
 					</div>				
-									<img src={articles} className="projects" />
+									<img src={articles} className="projectImages" />
 					</div>	
-<div className="proj">
+					
+					<div className="proj">
 						<div className="projDesc">
 							<p>Fully CRUD Note creation app where user can create and save notes on their desktop.</p>
 							<p>Built with: Express, React, and Electron</p>							
 							<a href="http://electron-libre.surge.sh/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
 							<a href="https://github.com/electron-WDI" className="btn blue" target="_blank" rel="noopener noreferrer">GitHub</a>
 					</div>				
-									<img src={electron} className="projects" />
+									<img src={electron} className="projectImages" />
 					</div>	
 				<div className="proj">
 						<div className="projDesc">
@@ -36,7 +37,7 @@ class Fullstack extends Component {
 							<a href="http://githiredpotoo.surge.sh/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
 							<a href="https://github.com/rohara-gleveline" className="btn blue" target="_blank" rel="noopener noreferrer">GitHub</a>
 					</div>				
-							<img src={githired} className="projects" />
+							<img src={githired} className="projectImages" />
 					</div>	
 			</section>
 			</section>

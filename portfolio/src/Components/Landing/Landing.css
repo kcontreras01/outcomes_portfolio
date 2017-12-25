@@ -66,3 +66,36 @@ margin-top: 10em;}
   text-align: center;
   color: #545060;
 }
+
+
+@media only screen and (max-width: 500px) {
+
+    /*About Me*/
+
+  h2 {
+    font-size: 2em;
+  }
+  li {
+    font-size: 1em;
+    text-align: center;
+    padding: 14px 16px;
+  } 
+
+  .Landing {
+    height: 10em;
+    margin-top: 5em;
+  }
+  .logo {
+    font-size: 3em;
+  }
+  p {
+  width: 80%;
+  }
+  #me {
+  width: 20em;
+  height: 18em;
+  border-radius: 8px;
+  }
+
+
+}

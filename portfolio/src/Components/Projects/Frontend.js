@@ -9,7 +9,7 @@ import './Projects.css';
 class Frontend extends Component {
 	render(){
 		return(
-				<section id="projects">
+				<section>
 						<h4>Frontend</h4>			
 					<section className="project-container">
 					<div className="proj">

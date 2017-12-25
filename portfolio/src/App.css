@@ -5,8 +5,8 @@
 body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
-  background: #F4F4F5;
-  scroll-behavior: smooth;
+/*  background: #F4F4F5;
+*/  scroll-behavior: smooth;
 }
 
 section {
@@ -99,32 +99,8 @@ flex-direction: column;
 
 /*MOBILE*/
 @media only screen and (max-width: 500px) {
-  /*About Me*/
 
-  h2 {
-    font-size: 2em;
-  }
-  li {
-    font-size: 1em;
-    text-align: center;
-    padding: 14px 16px;
-  } 
 
-  .Landing {
-    height: 10em;
-    margin-top: 5em;
-  }
-  .logo {
-    font-size: 3em;
-  }
-  p {
-  width: 80%;
-  }
-  #me {
-  width: 20em;
-  height: 18em;
-  border-radius: 8px;
-  }
 
   /*Projects*/
 
@@ -144,12 +120,12 @@ figure {
   display: flex;
 }*/
   /*Skills*/
-.skills-box {
-  display: flex;
+/*.skills-box {
+  display: flex;*/
 /*  flex-wrap: wrap;
-*/}
+*//*}*/
 
-.skills {
+/*.skills {
   margin-top: 2em;
 }
 .skills p {
@@ -167,85 +143,17 @@ figure {
   text-decoration: none;
   color: black;
 }
-
+*/
 
   /*Contact*/
 
-  .Contact {
-    margin-top: 1em;
-    font-size: 50px;    
-  }
+.contact {
+
+}
+
 
 h2 {
    font-size: .75em;
 }
 
-.Contact section {
-  display: flex;
-  justify-content: center;
 }
-
-    .appearContact {
-      animation: fadein 1s;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-    }
-
-.contact-links {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
-
-.contact p {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-size: .75em;
-  padding: 0;
-}
-
-.contact a:hover {
-  color: white;
-}
-}
-
-
-/*.NavBar {
-  width: 100%;
-  position: absolute;
-  top: 90vh;
-  background: -webkit-linear-gradient(rgba(255,255,255, 1), rgba(255,255,255,.7));
-  background: -o-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
-  background: -moz-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
-  background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.7));
-  z-index: 3;
-}
-
-.NavBarContainer {
-  max-width: 78%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 10vh;
-}
-
-.navItem {
-  transform: rotate(0deg);
-  transition: 1s;
-  font-size: 17px;
-  margin: 3px 0;
-}
-
-.navItem:hover{
-  color: #97A4A8;
-}
-
-.NavBarFixed {
-  position: fixed;
-  top: 0;
-}*/
-

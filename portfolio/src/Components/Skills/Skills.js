@@ -5,64 +5,48 @@ class Skills extends Component {
 	render(){
 		return(
 			<section id="skills" className="page">
-					<h4>Skills</h4>
 					<div className="skills-box">
-
 						<div className="skills">
-							<p className="grow">
-								<a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>
-							</p>
-							<p className="grow">
-								<a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer">Javascript</a>
-							</p>
-							<p className="grow">
-								<a href="https://jqueryui.com/" target="_blank" rel="noopener noreferrer">jQuery</a>
-							</p>
-							<p className="grow">
-								<a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">HTML</a>
-							</p>
-							<p className="grow">
-								<a href="https://www.w3schools.com/css/css_intro.asp" target="_blank" rel="noopener noreferrer">CSS</a>
-							</p>
+						<h6>Frontend</h6>
+							<p>
+								<span className="devicons devicons-html5 grow"></span>
+									<span className="devicons devicons-css3 grow"></span>
+									<span className="devicons devicons-javascript grow"></span>
+								<span className="devicons devicons-jquery grow"></span>
+							<span className="devicons devicons-react grow"></span>
+							<p className="grow">ES6</p>		
+							</p>				
 						</div>
 
 						<div className="skills">
-							<p className="grow">
-								<a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">Express</a>
-							</p>
-							<p className="grow">
-								<a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">Node.js</a>
-							</p>
-							<p className="grow">
-								<a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank" rel="noopener noreferrer">
-									MVC
-								</a>
-							</p>
-							<p className="grow">
-								<a href="https://electron.atom.io/" target="_blank" rel="noopener noreferrer">Electron</a>
-							</p>
-							<p className="grow">
-								<a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Angular</a>
-							</p>
-						</div>
+								<h6>Backend</h6>
+							<p>
+									<span className="devicons devicons-nodejs grow"></span>
+									<span className="devicons devicons-ruby_on_rails grow"></span>
+								<span className="devicons devicons-postgresql grow"></span>	
+								<p className="grow">express</p>			
+								</p>
+							</div>
+
 
 						<div className="skills">
-							<p className="grow">
-								<a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Ruby</a>
+								<h6>Tools</h6>
+							<p>
+								<span className="devicons devicons-git grow"></span>
+								<span className="devicons devicons-github_alt grow"></span>
+								<span className="devicons devicons-heroku grow"></span>
+								<span className="devicons devicons-trello grow"></span>
 							</p>
-							<p className="grow">
-								<a href="http://rubyonrails.org/" target="_blank" rel="noopener noreferrer">Rails</a>
+							</div>
+
+						<div className="skills">
+								<h6>Certifications</h6>
+							<p>
+								<p className="grow">ACiT</p>
+								<p className="grow">ACMT</p>
 							</p>
-							<p className="grow">
-								<a href="#">RESTful APIs</a>
-							</p>
-							<p className="grow">
-								<a href="http://es6-features.org/#Constants" target="_blank" rel="noopener noreferrer">ES6</a>
-							</p>
-							<p className="grow">
-								<a href="https://www.w3schools.com/sql/" target="_blank" rel="noopener noreferrer">SQL | PSQL</a>
-							</p>
-						</div>
+							</div>							
+
 					</div>
 				</section>
 			)

@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import beers from "../../images/beers.gif";
-import kindle from "../../images/kindle.gif"
-import magic8 from "../../images/magic8.gif"
+import kindle from "../../images/kindle.gif";
+import magic8 from "../../images/magic8.gif";
 import './Projects.css';
 
 
 class Mobile extends Component {
 	render(){
 		return(
-				<section id="projects">
+				<section>
 						<h4>Mobile</h4>			
 					<section className="project-container">
 						<div className="proj">
