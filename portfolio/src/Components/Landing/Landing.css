@@ -1,64 +1,6 @@
-/*DOWN ARROW*/
-.arrows {
-  width: 60px;
-  height: 72px;
-  position: absolute;
-  left: 50%;
-  margin-left: -30px;
-  bottom: 20px;
-}
-
-.arrows path {
-  stroke: #AC6C7E;
-  fill: transparent;
-  stroke-width: 1px;  
-  animation: arrow 2s infinite;
-  -webkit-animation: arrow 2s infinite; 
-}
-
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-/* Safari / Chrome */
-@-webkit-keyframes arrow 
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-.arrows path.a1 {
-  animation-delay:-1s;
-  -webkit-animation-delay:-1s; /* Safari / Chrome */
-}
-
-.arrows path.a2 {
-  animation-delay:-0.5s;
-  -webkit-animation-delay:-0.5s; /* Safari / Chrome */
-}
-
-.arrows path.a3 { 
-  animation-delay:0s;
-  -webkit-animation-delay:0s; /* Safari / Chrome */
-}
-
-/*END DOWN ARROW*/
-
-
-
-.Landing {
-  color: #545060;
-/*  margin-top: 15em;
-*/}
-
 .intro {
-margin-top: 10em;}
+margin-top: 10em;
+}
 
 .logo {
   margin: 0 auto;
@@ -69,9 +11,6 @@ margin-top: 10em;}
 
 
 @media only screen and (max-width: 500px) {
-
-    /*About Me*/
-
   h2 {
     font-size: 2em;
   }
@@ -81,10 +20,6 @@ margin-top: 10em;}
     padding: 14px 16px;
   } 
 
-  .Landing {
-    height: 10em;
-    margin-top: 5em;
-  }
   .logo {
     font-size: 3em;
   }
@@ -95,6 +30,10 @@ margin-top: 10em;}
   width: 20em;
   height: 18em;
   border-radius: 8px;
+  }
+
+  .intro {
+    margin-top: 5em;
   }
 
 

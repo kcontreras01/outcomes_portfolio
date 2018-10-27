@@ -3,15 +3,24 @@
 }
 
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-/*  background: #F4F4F5;
-*/  scroll-behavior: smooth;
+  font-family: 'Roboto Slab', Serif;
+  font-size: 16px;
+  text-align: center;
+  background-color: #E8F1F2;
+   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+   /*font-weight: 300;*/
+  /*background: #F4F4F5;
+  scroll-behavior: smooth;*/
 }
 
 section {
   text-align: center;
   animation: fadeIn .75s ease-in;
+  min-height: 100vh;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -27,7 +36,7 @@ h4 {
   color: #AC6C7E;
 }
 
-.page {
+/*.page {
   height: 100vh;
   animation: fadeIn 2s ease-in;
   margin-top: 2em;
@@ -38,10 +47,12 @@ h4 {
   justify-content: flex-start;
   padding: 1em;
   margin-top: 1em;
-}
+}*/
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+
+
 
 
 
@@ -55,18 +66,24 @@ h4 {
   to {opacity: 1}
 }
 
-@media only screen and (max-width: 1000px) {
+
+.boxes:hover {
+  opacity: 0.75;
+  background: #F7F7F7;
+}
+
+/*@media only screen and (max-width: 1000px) {*/
 /*.Landing {
   color: #545060;
   margin-top: 5em;
   height: 60vh;
   }*/
-}
+/*}*/
 
 
 
 /*TABLET*/
-@media only screen and (max-width: 780px) {
+/*@media only screen and (max-width: 780px) {
 .Contact section {
   display: flex;
   justify-content: center;
@@ -90,21 +107,21 @@ h4 {
   color: white;
   } 
 
-/*.projDesc {
+.projDesc {
   display: flex;
 flex-direction: column; 
-}*/
 }
+}*/
 
 
 /*MOBILE*/
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {*/
 
 
 
   /*Projects*/
 
-figure {
+/*figure {
   width: 50vw;
   flex-direction: column;
 }
@@ -112,7 +129,7 @@ figure {
   width: 50vw;
   height: 10em;
   flex-direction: column;
-}
+}*/
 
 
 
@@ -147,8 +164,8 @@ figure {
 
   /*Contact*/
 
-.contact {
-
+/*.contact {*/
+/*
 }
 
 
@@ -156,4 +173,4 @@ h2 {
    font-size: .75em;
 }
 
-}
+}*/
