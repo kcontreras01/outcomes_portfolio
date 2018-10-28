@@ -15,26 +15,20 @@ body {
 
 section {
   text-align: center;
-  animation: fadeIn .75s ease-in;
   min-height: 100vh;
-      display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-p {
+
+
+/*p {
   width: 70%;
   padding: 1em;
   font-size: 1.5em;
-}
-
-h4 {
-  text-align: center;
-  font-size: 2em;
-  padding: 1em;
-  color: #AC6C7E;
-}
+}*/
 
 /*.page {
   height: 100vh;
@@ -56,15 +50,7 @@ h4 {
 
 
 
-@-webkit-keyframes fadeIn {
-  from {opacity: 0} 
-  to {opacity: 1}
-}
 
-@keyframes fadeIn {
-  from {opacity: 0} 
-  to {opacity: 1}
-}
 
 
 .boxes:hover {

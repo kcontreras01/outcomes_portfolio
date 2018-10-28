@@ -1,40 +1,21 @@
-.intro {
-margin-top: 10em;
+#landing-div{
+  animation: fadein 3s ease-in forwards;
+  animation-delay: 3s; 
 }
 
-.logo {
-  margin: 0 auto;
-  font-size: 6em;
-  text-align: center;
-  color: #545060;
-}
+@keyframes fadeIn { from {opacity: 0} to {opacity: 1} }
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-
-@media only screen and (max-width: 500px) {
-  h2 {
+@media only screen and (max-width: 600px) {
+  h1 {
     font-size: 2em;
   }
-  li {
-    font-size: 1em;
-    text-align: center;
-    padding: 14px 16px;
-  } 
 
-  .logo {
-    font-size: 3em;
-  }
   p {
-  width: 80%;
+    width: 80%;
+    padding: .75em;
+    font-size: 1.25em;
   }
-  #me {
-  width: 20em;
-  height: 18em;
-  border-radius: 8px;
-  }
-
-  .intro {
-    margin-top: 5em;
-  }
-
 
 }
