@@ -42,7 +42,7 @@ class ShowProjects extends Component {
 
 	render(){
 		return(
-				<section>
+				<section id="projects">
           <Zoom><img alt="brooklyn" src={bk} className="boxes" onClick={this.showMeBK}/></Zoom>
               <AnimateHeight duration={800} height={this.state.heightBK}>
                 <div>

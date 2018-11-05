@@ -8,10 +8,6 @@ font-family: 'Roboto Mono', monospace;
   text-align: center;
   background-color: #4C5C68;
   color: #DCDCDD;
-   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
-   /*font-weight: 300;*/
-  /*background: #F4F4F5;
-  scroll-behavior: smooth;*/
 }
 
 section {
@@ -22,37 +18,6 @@ section {
   align-items: center;
   justify-content: center;
 }
-
-
-
-/*p {
-  width: 70%;
-  padding: 1em;
-  font-size: 1.5em;
-}*/
-
-/*.page {
-  height: 100vh;
-  animation: fadeIn 2s ease-in;
-  margin-top: 2em;
-}
-
-.container {
-  display: flex;
-  justify-content: flex-start;
-  padding: 1em;
-  margin-top: 1em;
-}*/
-
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
-
-
-
-
-
-
-
 
 .boxes:hover {
   opacity: 0.75;

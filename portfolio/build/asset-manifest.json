@@ -1,20 +1,10 @@
 {
-  "main.css": "static/css/main.286522fd.css",
-  "main.css.map": "static/css/main.286522fd.css.map",
-  "main.js": "static/js/main.f2b41f4c.js",
-  "main.js.map": "static/js/main.f2b41f4c.js.map",
-  "static/media/articles.gif": "static/media/articles.29f41c2d.gif",
-  "static/media/beers.gif": "static/media/beers.94a88914.gif",
+  "main.css": "static/css/main.c717f39f.css",
+  "main.css.map": "static/css/main.c717f39f.css.map",
+  "main.js": "static/js/main.79115b27.js",
+  "main.js.map": "static/js/main.79115b27.js.map",
   "static/media/brooklyn.png": "static/media/brooklyn.25d792c0.png",
-  "static/media/busy.png": "static/media/busy.751b04b3.png",
   "static/media/electron.png": "static/media/electron.161891e4.png",
-  "static/media/githired.gif": "static/media/githired.53b1d4f4.gif",
-  "static/media/js.png": "static/media/js.5cc0e868.png",
-  "static/media/kiara.jpeg": "static/media/kiara.c5a8c9ac.jpeg",
-  "static/media/kindle.gif": "static/media/kindle.97853a5a.gif",
-  "static/media/lets.png": "static/media/lets.5b7348f1.png",
-  "static/media/magic8.gif": "static/media/magic8.8c403034.gif",
-  "static/media/match.png": "static/media/match.0d62a5f4.png",
-  "static/media/news.png": "static/media/news.77e25953.png",
-  "static/media/projects.jpg": "static/media/projects.8233fffd.jpg"
+  "static/media/githired.png": "static/media/githired.dca908c2.png",
+  "static/media/match.png": "static/media/match.0d62a5f4.png"
 }
