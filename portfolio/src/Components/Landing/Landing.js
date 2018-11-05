@@ -3,26 +3,34 @@ import './Landing.css'
 import Typing from 'react-typing-animation';
 
 class Landing extends Component {
-  componentWillMount() {
-    document.addEventListener('scroll', this.onScroll);
+  constructor() {
+    super();
+      this.state = {
+        render: false
+    }
   }
 
-  componentWillUnmount() {
-    document.removeEventListener('scroll', this.onScroll);
+  componentDidMount() {
+    setTimeout(() => { 
+        this.setState({render: true}) 
+    }, 3000)
   }
 
 	render() {
 		return (
-			<section className="landing">
+      <section>
 			<Typing>
 			  <Typing.Delay ms={500} />
-        <h1>HI! <Typing.Delay ms={900} />I'M KIARA.</h1>
+        <h1>Hi! <Typing.Delay ms={900} />I'm Kiara.</h1>
       </Typing>
-      <div id="landing-div">
-        <p>I'm a passionate Full Stack Developer from NYC. </p>
-        <p>Thanks for stopping by. Check out some of my most recent work below.
-				<i className="fas fa-level-down-alt jump"></i></p>
-			</div>
+      
+        { this.state.render ? 
+          <div className="fadeIn">
+            <p>I'm a passionate Full Stack Developer from NYC. </p>
+            <p>Thanks for stopping by. Check out some of my most recent work below.</p>
+    			</div> : null
+        }
+      
       </section>
 		);
 	}

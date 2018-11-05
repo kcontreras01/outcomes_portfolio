@@ -51,8 +51,8 @@ class ShowProjects extends Component {
         	          	<div>
         								<p>Brooklyn responsive blog demo site </p>
         								<p>Built with: HTML, CSS, and Javascript</p>														
-        								<a href="https://kcontreras01.github.io/brooklyn/" className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
-        								<a href="https://github.com/kcontreras01/brooklyn" className="btn blue">Github</a>
+        								<a href="https://kcontreras01.github.io/brooklyn/" className="btn raise" target="_blank" rel="noopener noreferrer">Demo</a>
+        								<a href="https://github.com/kcontreras01/brooklyn" className="btn raise">Github</a>
         							</div> 
                      : null
       						}
