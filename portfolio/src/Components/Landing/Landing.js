@@ -1,27 +1,37 @@
 import React, { Component } from "react";
 import './Landing.css'
+import Typing from 'react-typing-animation';
 
 class Landing extends Component {
-  componentWillMount() {
-    document.addEventListener('scroll', this.onScroll);
+  constructor() {
+    super();
+      this.state = {
+        render: false
+    }
   }
 
-  componentWillUnmount() {
-    document.removeEventListener('scroll', this.onScroll);
+  componentDidMount() {
+    setTimeout(() => { 
+        this.setState({render: true}) 
+    }, 3000)
   }
 
 	render() {
 		return (
-			<section id="landing">
-			<div className="intro">
-				<h1 className="logo">KIARA CONTRERAS</h1>
-				<h2>Full Stack Web Developer</h2>
-				<h3>New York</h3>
-			</div>
-
-
-
-			</section>
+      <section>
+			<Typing>
+			  <Typing.Delay ms={500} />
+        <h1>Hi! <Typing.Delay ms={900} />I'm Kiara.</h1>
+      </Typing>
+      
+        { this.state.render ? 
+          <div className="fadeIn">
+            <p>I'm a passionate Full Stack Developer from NYC. </p>
+            <p>Thanks for stopping by. Check out some of my most recent work below.</p>
+    			</div> : null
+        }
+      
+      </section>
 		);
 	}
 }

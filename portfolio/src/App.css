@@ -3,31 +3,35 @@
 }
 
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-/*  background: #F4F4F5;
-*/  scroll-behavior: smooth;
+font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  text-align: center;
+  background-color: #4C5C68;
+  color: #DCDCDD;
+   /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+   /*font-weight: 300;*/
+  /*background: #F4F4F5;
+  scroll-behavior: smooth;*/
 }
 
 section {
   text-align: center;
-  animation: fadeIn .75s ease-in;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-p {
+
+
+/*p {
   width: 70%;
   padding: 1em;
   font-size: 1.5em;
-}
+}*/
 
-h4 {
-  text-align: center;
-  font-size: 2em;
-  padding: 1em;
-  color: #AC6C7E;
-}
-
-.page {
+/*.page {
   height: 100vh;
   animation: fadeIn 2s ease-in;
   margin-top: 2em;
@@ -38,35 +42,35 @@ h4 {
   justify-content: flex-start;
   padding: 1em;
   margin-top: 1em;
-}
+}*/
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
 
 
-@-webkit-keyframes fadeIn {
-  from {opacity: 0} 
-  to {opacity: 1}
+
+
+
+
+
+.boxes:hover {
+  opacity: 0.75;
+  background: #F7F7F7;
 }
 
-@keyframes fadeIn {
-  from {opacity: 0} 
-  to {opacity: 1}
-}
-
-@media only screen and (max-width: 1000px) {
+/*@media only screen and (max-width: 1000px) {*/
 /*.Landing {
   color: #545060;
   margin-top: 5em;
   height: 60vh;
   }*/
-}
+/*}*/
 
 
 
 /*TABLET*/
-@media only screen and (max-width: 780px) {
+/*@media only screen and (max-width: 780px) {
 .Contact section {
   display: flex;
   justify-content: center;
@@ -90,21 +94,21 @@ h4 {
   color: white;
   } 
 
-/*.projDesc {
+.projDesc {
   display: flex;
 flex-direction: column; 
-}*/
 }
+}*/
 
 
 /*MOBILE*/
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {*/
 
 
 
   /*Projects*/
 
-figure {
+/*figure {
   width: 50vw;
   flex-direction: column;
 }
@@ -112,7 +116,7 @@ figure {
   width: 50vw;
   height: 10em;
   flex-direction: column;
-}
+}*/
 
 
 
@@ -147,8 +151,8 @@ figure {
 
   /*Contact*/
 
-.contact {
-
+/*.contact {*/
+/*
 }
 
 
@@ -156,4 +160,4 @@ h2 {
    font-size: .75em;
 }
 
-}
+}*/
