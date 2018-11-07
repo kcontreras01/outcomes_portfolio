@@ -2,7 +2,6 @@
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 2em;
-    position: inherit;
   }
 
   p {
@@ -16,6 +15,21 @@
   }
 
 }
+
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 4em;
+    padding: .75em;
+  }
+
+  p {
+    width: 70%;
+    /*padding: .8em;*/
+    font-size: 2em;
+  }
+}
+
 
 @keyframes fadein {
     from { opacity: 0; }
