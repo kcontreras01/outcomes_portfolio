@@ -28,16 +28,16 @@ class ShowProjects extends Component {
   }
 
   showMeBK = () => {
-  	this.setState({showBK: !this.state.showBK, heightBK: this.state.heightBK === 0 ? 200 : 0})
+  	this.setState({showBK: !this.state.showBK, heightBK: this.state.heightBK === 0 ? 'inherit' : 0})
   }  
   showMeGH = () => {
-  	this.setState({showGH: !this.state.showGH, heightGH: this.state.heightGH === 0 ? 300 : 0})
+  	this.setState({showGH: !this.state.showGH, heightGH: this.state.heightGH === 0 ? 'inherit' : 0})
   }  
   showMeNT = () => {
-  	this.setState({showNT: !this.state.showNT, heightNT: this.state.heightNT === 0 ? 300 : 0})
+  	this.setState({showNT: !this.state.showNT, heightNT: this.state.heightNT === 0 ? 'inherit' : 0})
   }  
   showMeMT = () => {
-  	this.setState({showMT: !this.state.showMT, heightMT: this.state.heightMT === 0 ? 300 : 0})
+  	this.setState({showMT: !this.state.showMT, heightMT: this.state.heightMT === 0 ? 'inherit' : 0})
   }
 
 	render(){

@@ -3,11 +3,17 @@
 }
 
 body {
-font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 16px;
   text-align: center;
-  background-color: #4C5C68;
   color: #DCDCDD;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#23538a+0,a7cfdf+100 */
+  background: #23538a; /* Old browsers */
+  background: -moz-linear-gradient(top, #23538a 0%, #a7cfdf 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #23538a 0%,#a7cfdf 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #23538a 0%,#a7cfdf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23538a', endColorstr='#a7cfdf',GradientType=0 ); /* IE6-9 */
 }
 
 section {
@@ -23,106 +29,3 @@ section {
   opacity: 0.75;
   background: #F7F7F7;
 }
-
-/*@media only screen and (max-width: 1000px) {*/
-/*.Landing {
-  color: #545060;
-  margin-top: 5em;
-  height: 60vh;
-  }*/
-/*}*/
-
-
-
-/*TABLET*/
-/*@media only screen and (max-width: 780px) {
-.Contact section {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-links {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-}
-
-.contact p {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-size: .75em;
-  padding: 0;
-}
-
-.contact a:hover {
-  color: white;
-  } 
-
-.projDesc {
-  display: flex;
-flex-direction: column; 
-}
-}*/
-
-
-/*MOBILE*/
-/*@media only screen and (max-width: 500px) {*/
-
-
-
-  /*Projects*/
-
-/*figure {
-  width: 50vw;
-  flex-direction: column;
-}
-.projects {
-  width: 50vw;
-  height: 10em;
-  flex-direction: column;
-}*/
-
-
-
-/*.project-container {
-  display: flex;
-}*/
-  /*Skills*/
-/*.skills-box {
-  display: flex;*/
-/*  flex-wrap: wrap;
-*//*}*/
-
-/*.skills {
-  margin-top: 2em;
-}
-.skills p {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin: 1em;
-  border-radius: 8px;
-  background: #FAFAFA;
-  width: 15vw;
-  box-shadow: 3px 3px 5px #888888;
-}
-
-.skills a {
-  text-decoration: none;
-  color: black;
-}
-*/
-
-  /*Contact*/
-
-/*.contact {*/
-/*
-}
-
-
-h2 {
-   font-size: .75em;
-}
-
-}*/

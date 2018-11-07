@@ -27,7 +27,7 @@ class Landing extends Component {
         { this.state.render ? 
           <div className="fadeIn">
             <p>I'm a passionate Full Stack Developer from NYC. </p>
-            <p>Thanks for stopping by. Check out some of my most recent work below.</p>
+            <p>Thanks for stopping by. Check out some of my work below.</p>
     			</div> : null
         }
       

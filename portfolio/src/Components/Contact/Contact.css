@@ -6,5 +6,10 @@ footer {
 }
 
 footer a {
-  color: #DCDCDD;
+  color: #B5B5B5;
+  font-size: 1em;
+}
+
+#contact p {
+  color: #B5B5B5;
 }
