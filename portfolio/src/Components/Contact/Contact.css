@@ -6,10 +6,24 @@ footer {
 }
 
 footer a {
-  color: #B5B5B5;
+  color: #23538a;
   font-size: 1em;
 }
 
 #contact p {
-  color: #B5B5B5;
+  color: #23538a;
+  margin-top: 1em;
+  margin-bottom: .2em;
+}
+
+@media only screen and (max-width: 600px) {
+	#contact p {
+		font-size: 1.8em
+	}
+}
+
+@media only screen and (min-width: 787px) and (max-width: 1440px) {
+	#contact p {
+		font-size: 2.6em
+	}
 }
