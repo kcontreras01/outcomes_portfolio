@@ -1,7 +1,7 @@
 .btn {
   background: white;
   text-decoration: none;
-  margin:auto;
+  margin: auto;
   border-radius: 4px;
   box-shadow: 2px 2px 0px #373737 !important;
   border: 1px solid #373737 !important;
@@ -14,7 +14,7 @@
 .boxes {
   border: 1px solid #373737 !important;
   box-shadow: 2px 2px 0px #373737 !important;
-  
+  border-radius: 4px;
 }
 
 .raise:hover,
@@ -38,29 +38,58 @@
     padding-right: .2em;
   }
 
-  div {
-    padding-bottom: .5em;
+  .project-description {
+    font-size: .5em;
   }
 
   .boxes {
     width: 80%;
     margin: .3em;
-    border-radius: 4px;
+  }
+
+  .project-buttons {
+    margin-top: .6em;
   }
 } 
 
-@media only screen and (min-width: 787px) and (max-width: 1440px) {
-  .boxes {
-      width: 40%;
-      margin: .5em;
-      border-radius: 4px;
-  }
-
-  div {
-    padding-bottom: .5em;
+@media only screen and (max-width: 786px) {
+  .project-description {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 80%;
   }
 
   .btn {
+    margin: .5em;
+    padding-left: .3em;
+    padding-right: .3em;
+  }
+
+  .project-buttons {
+    margin-top: .8em;
+  }
+
+  .boxes {
+    margin: .6em;
+  }
+}
+
+@media only screen and (min-width: 787px) and (max-width: 1440px) {
+  .boxes {
+    margin: .5em;
+  }
+
+  .project-description {
+    font-size: .6em;
+    margin: 2em;
+  }
+
+  .project-buttons {
+    margin-top: .9em;
+  }
+
+  .btn {
+    margin-top: 1em;
     margin: 1em;
     padding-left: .5em;
     padding-right: .5em;

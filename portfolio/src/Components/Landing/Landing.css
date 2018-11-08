@@ -10,10 +10,6 @@
     font-size: 1.25em;
   }
 
-  .landing {
-    animation: fadein 10s;
-  }
-
 }
 
 
@@ -28,27 +24,4 @@
     /*padding: .8em;*/
     font-size: 2em;
   }
-}
-
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-.landing-div {
-  visibility: hidden;
-}
-
-@keyframes jump {
-    0%   { transform: translateY(0); }
-    30%  { transform: translateY(-5px); }
-    50%  { transform: translateY(0); }
-    100% { transform: translateY(0); }
-}
-.jump {
-  transform-origin: 50% 50%;
-  animation-delay: 5s;
-  animation: jump 1s ease;
-  padding-left: .5em;
 }

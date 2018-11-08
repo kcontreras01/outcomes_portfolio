@@ -25,10 +25,10 @@ class Landing extends Component {
       </Typing>
       
         { this.state.render ? 
-          <div className="fadeIn">
+          <Typing>
             <p>I'm a passionate Full Stack Developer from NYC. </p>
-            <p>Thanks for stopping by. Check out some of my work below.</p>
-    			</div> : null
+            <p>Check out some of my work below.</p>
+    			</Typing> : null
         }
       
       </section>

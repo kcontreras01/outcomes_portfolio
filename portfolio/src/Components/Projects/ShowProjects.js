@@ -48,11 +48,14 @@ class ShowProjects extends Component {
                 <div>
                 	{ this.state.showBK ? 
 
-        	          	<div>
+        	          	<div className="project-description">
         								<p>Brooklyn responsive blog demo site </p>
-        								<p>Built with: HTML, CSS, and Javascript</p>														
-        								<a href="https://kcontreras01.github.io/brooklyn/" className="btn raise" target="_blank" rel="noopener noreferrer">Demo</a>
-        								<a href="https://github.com/kcontreras01/brooklyn" className="btn raise">Github</a>
+        								<p>Built with: HTML, CSS, and Javascript</p>	
+
+                        <div className="project-buttons">													
+          								<a href="https://kcontreras01.github.io/brooklyn/" className="btn raise" target="_blank" rel="noopener noreferrer">Demo</a>
+          								<a href="https://github.com/kcontreras01/brooklyn" className="btn raise">Github</a>
+                        </div>
         							</div> 
                      : null
       						}
@@ -63,11 +66,14 @@ class ShowProjects extends Component {
             <AnimateHeight duration={800} height={this.state.heightGH}>
               <div>
                 { this.state.showGH ? 
-      	          	<div>
+      	          	<div className="project-description">
       								<p>Job search management tool that lets users create a profile, search jobs, and save applications.</p>
-      								<p>Built with: Express, React, and GitHub Jobs API</p>							
-      								<a href="http://githiredpotoo.surge.sh/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
-      								<a href="https://github.com/rohara-gleveline" className="btn blue" target="_blank" rel="noopener noreferrer">GitHub</a>
+      								<p>Built with: Express, React, and GitHub Jobs API</p>
+
+                      <div className="project-buttons">                         
+        								<a href="http://githiredpotoo.surge.sh/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
+        								<a href="https://github.com/rohara-gleveline" className="btn blue" target="_blank" rel="noopener noreferrer">GitHub</a>
+                      </div>
       							</div> : null
       					}
               </div>
@@ -76,12 +82,15 @@ class ShowProjects extends Component {
             <AnimateHeight duration={800} height={this.state.heightMT}>
               <div>
               	{ this.state.showMT ?
-              		<div>
+              		<div className="project-description">
     								<p>StartupMatchmaker demo business site with Frontend design</p>
-    								<p>Built with: HTML, CSS, and Javascript</p>														
-    								<a href="http://startup-matchmaker-kc.bitballoon.com/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
-    								<a href="https://github.com/kcontreras01/week8" className="btn blue" >Github</a>
-    							</div> : null
+    								<p>Built with: HTML, CSS, and Javascript</p>	
+
+                    <div className="project-buttons">                         													
+      								<a href="http://startup-matchmaker-kc.bitballoon.com/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
+      								<a href="https://github.com/kcontreras01/week8" className="btn blue" >Github</a>
+    							   </div>
+                  </div> : null
               	}
               </div>
             </AnimateHeight>  
@@ -89,12 +98,15 @@ class ShowProjects extends Component {
             <AnimateHeight duration={800} height={this.state.heightNT}>
               <div>
               	{ this.state.showNT ?
-              		<div>
+              		<div className="project-description">
     								<p>Fully CRUD Note creation app where user can create and save notes on their desktop.</p>
-    								<p>Built with: Express, React, and Electron</p>							
-    								<a href="http://electron-libre.surge.sh/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
-    								<a href="https://github.com/electron-WDI" className="btn blue" target="_blank" rel="noopener noreferrer">GitHub</a>
-    							</div> : null
+    								<p>Built with: Express, React, and Electron</p>	
+
+                    <div className="project-buttons">                         
+      								<a href="http://electron-libre.surge.sh/"  className="btn blue" target="_blank" rel="noopener noreferrer">Demo</a>
+      								<a href="https://github.com/electron-WDI" className="btn blue" target="_blank" rel="noopener noreferrer">GitHub</a>
+    							   </div>
+                  </div> : null
               	}
               </div>
             </AnimateHeight>  
